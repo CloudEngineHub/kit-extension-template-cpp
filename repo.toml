@@ -20,7 +20,7 @@ enabled = false
 
 [repo_build.msbuild]
 link_host_toolchain = true
-vs_version = "vs2019" # Empty string will match all years and prioritize the newest, specifying vs2019 because of issue with usd libs and vs2022
+vs_version = "" # Empty string will match all years and prioritize the newest
 "token:in_ci==true".vs_version = "vs2019"
 "token:in_ci==true".vs_path = "C:\\vs2019"
 
